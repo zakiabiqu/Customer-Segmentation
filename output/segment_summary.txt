@@ -1,0 +1,116 @@
+================================================================================
+                    CUSTOMER SEGMENTATION SUMMARY
+                    K-Means Clustering with k=5
+================================================================================
+
+Dataset Size: 50 customers
+Between_SS / Total_SS: 92.4% (excellent cluster separation)
+
+================================================================================
+SEGMENT PROFILES
+================================================================================
+
+[CLUSTER 1] Silver Youth Gals
+----------------------------------------
+Size: 12 customers (24% of total)
+Gender: Mixed (1.75 → mostly female)
+Average Age: 31.6 years
+Dominant Profession: Professional mix (code 3.92)
+Residence Type: Mostly Cluster (1.25)
+Average Annual Spending: 7.33 million Rupiah
+
+Business Insight:
+Young, moderately high-spending individuals. Ideal for digital marketing,
+lifestyle products, and social media campaigns.
+
+================================================================================
+
+[CLUSTER 2] Diamond Senior Member
+----------------------------------------
+Size: 10 customers (20% of total)
+Gender: Mixed (1.70 → slightly more male)
+Average Age: 52.5 years
+Dominant Profession: Professional/Wiraswasta mix (3.80)
+Residence Type: Mostly Cluster (1.30)
+Average Annual Spending: 6.02 million Rupiah
+
+Business Insight:
+Stable, mature customers with moderate spending. Focus on loyalty programs,
+healthcare products, and retirement planning services.
+
+================================================================================
+
+[CLUSTER 3] Gold Young Professional
+----------------------------------------
+Size: 5 customers (10% of total)
+Gender: Mostly Male (1.40)
+Average Age: 61.8 years
+Dominant Profession: Wiraswasta (4.20)
+Residence Type: Mixed (1.40)
+Average Annual Spending: 8.70 million Rupiah (High)
+
+Business Insight:
+Small but high-value segment of senior entrepreneurs. Offer premium/exclusive
+products, personalized services, and partnership opportunities.
+
+================================================================================
+
+[CLUSTER 4] Diamond Professional
+----------------------------------------
+Size: 14 customers (28% of total) - LARGEST SEGMENT
+Gender: All Female (2.00)
+Average Age: 20.1 years (Youngest)
+Dominant Profession: Student mix (Pelajar, Mahasiswa) (3.57)
+Residence Type: Mixed (1.36)
+Average Annual Spending: 5.90 million Rupiah (Lowest)
+
+Business Insight:
+Young female students/early professionals. Largest segment but lowest spending.
+Build long-term loyalty through educational content, discounts, and community
+events. Potential for future upselling.
+
+================================================================================
+
+[CLUSTER 5] Silver Mid Professional
+----------------------------------------
+Size: 9 customers (18% of total)
+Gender: All Female (2.00)
+Average Age: 42.3 years
+Dominant Profession: Professional/Wiraswasta (4.00)
+Residence Type: Mixed, more Sector (1.56)
+Average Annual Spending: 8.80 million Rupiah (HIGHEST)
+
+Business Insight:
+Most valuable segment — mature professional women with highest spending.
+Prioritize with VIP treatment, exclusive offers, targeted upselling, and
+cross-selling campaigns.
+
+================================================================================
+BUSINESS RECOMMENDATIONS SUMMARY
+================================================================================
+
+Priority 1 (Highest Value): Cluster 5 (Silver Mid Professional)
+  → VIP programs, exclusive events, premium product recommendations
+
+Priority 2 (Growth Potential): Cluster 1 & 3
+  → Digital engagement for young professionals, premium offers for seniors
+
+Priority 3 (Long-term Loyalty): Cluster 4 (Largest but low spending)
+  → Educational content, student discounts, community building
+
+Maintenance: Cluster 2
+  → Loyalty programs, consistent service
+
+================================================================================
+MODEL PERFORMANCE
+================================================================================
+
+Total Within-Cluster Sum of Squares: 829.97
+Between-Cluster SS / Total SS: 92.4%
+Optimal k determined by: Elbow Method
+
+Cluster validation suggests excellent separation and interpretability.
+
+================================================================================
+End of Summary
+================================================================================
