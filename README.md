@@ -95,7 +95,7 @@ The Elbow Method was applied to determine the optimal `k` for K-Means clustering
 - **Profile:** Middle-aged females (avg 42 years), professionals/entrepreneurs, **highest spending** (~8.8M).  
 - **Recommendation:** Prioritize VIP treatment, exclusive offers, and upselling campaigns.
 
-**Download detailed outputs:**  [Cluster centers (CSV)](output/tables/cluster_centers.csv)  | [Segment summary (CSV)](output/tables/segment_summary.csv)  | [Model summary (TXT)](output/tables/model_summary.txt)
+**Download detailed outputs:**  [Cluster centers (CSV)](output/cluster_centers.csv)  | [Segment summary (CSV)](output/segment_summary.csv)  | [Segment summary (TXT)](output/segment_summary.txt)
 
 
 ---
